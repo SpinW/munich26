@@ -2,12 +2,17 @@
 
 # Problem 1: Create a twinned system by using Twin(hamiltonian, transform, second_component_weight)
 
-# Supplementary problem: what transformation do you need to make the twin reflected about, e.g. (1,1,1) ?
+# Supplementary problem: what transformation do you need to make the twin reflected about a given axis, e.g. (1,1,1) ? 
+# Try importing the rotation matrix class? 
 
 # Problem 2:
 #   a) Create a powder spectrum of one of the systems we've looked at so far (simple might make things quicker)
-#   b) Add some noise to the system to simulate measurement error
-#   c) Create a fit of this data
+#   b) Create a parameterisation of some exchanges, and make some simulated data for a specific value
+#   c) Create an objective function for fitting
+#   d) Do a "scan" of the objective function vs. parameter, try different n_points, how does it affect the optimisation landscape
+#   e) Create a fit
+#   f) Simulate the effect of noise
+#   g) How does this effect the solution
 
 """ Basic outline"""
 
